@@ -1,4 +1,4 @@
-(() => {
+{
 	Object.prototype.Keys = function() {
 		return Object.keys(this);
 	};
@@ -13,4 +13,4 @@
 		return mJs.TypeOf(this) === type_name;
 	};
 	window.mJs = mJs;
-})();
+}

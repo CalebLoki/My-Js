@@ -1,4 +1,4 @@
-(() => {
+{
 	let mUrl = class {
 		constructor(url_str) {
 			[this.input, this.scheme, this.info, this.host, this.port, this.path, this.query, this.fragment] = url_str.match(mUrl.Matcher);
@@ -64,4 +64,4 @@
 		return result;
 	})();
 	window.mUrl = mUrl;
-})();
+}
